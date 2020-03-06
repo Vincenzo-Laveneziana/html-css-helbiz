@@ -15,7 +15,7 @@ body{
 
 /* utility */
 .container{
-  width: 1250px;
+  width: 1300px;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -37,7 +37,7 @@ body{
 }
 
 .w_33{
-  width: calc(100% / 3.33);
+  width: calc(100% / 3);
 }
 
 .w_50{
@@ -54,6 +54,10 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.relative{
+  position: relative;
 }
 
 
@@ -177,7 +181,6 @@ body{
   -moz-transition: all 0.5s;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-
 }
 
 .box:hover{
@@ -231,6 +234,66 @@ body{
   width: 230px;
   margin-top: 25px;
 }
+
+/* row 2 */
+.row_2{
+  margin-top: 50px;
+  text-align: center;
+
+}
+
+.row_2_background{
+  background-image: url('../img/helbiz-banner.jpg');
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.row_2_container{
+}
+
+
+.row2_col_mid img {
+  width: 380px;
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.row_2_container{
+  padding-bottom: 120px;
+}
+
+.row2_col_lf,
+.row2_col_rg{
+  padding-top: 100px;
+}
+
+.row2_col_lf h2{
+  font-size: 35px;
+}
+
+.row2_col_lf{
+  text-align: right;
+}
+
+.row2_col_rg{
+  text-align: left;
+}
+
+.row2_col_rg h3{
+  margin: 15px 0;
+
+}
+
+.row2_col_rg h3:last-child{
+  font-weight: 400;
+}
+
+
+
 
 
 
