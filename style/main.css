@@ -338,6 +338,83 @@ body{
 }
 
 
+/* row 4 */
+.row_4{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.row4_info{
+  height: 550px;
+}
+
+.row4_box:first-child{
+  padding-right: 20px;
+}
+
+.row4_box:last-child{
+  padding-left: 20px;
+}
+
+.row4_info{
+  background: #374858;
+}
+
+.row4_info img{
+  height: 68%;
+  margin-top: 1px;
+}
+
+.row4_box:last-child .row4_info{
+  background-image: url('../img/cities.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.row4_info h3, h4, a{
+  color: white;
+  text-decoration: none;
+}
+
+.row4_box:first-child .row4_info h3{
+  font-size: 45px;
+  padding-top: 30px;
+}
+
+.row4_box:first-child .row4_info h4{
+  font-size: 20px;
+  padding: 15px 0;
+}
+
+.row4_box:first-child .row4_info a{
+  font-size: 20px;
+  padding: 0 8px;
+}
+
+.row4_box:first-child .row4_info i{
+  padding: 0 5px;
+}
+
+/* nel caso si vuole cambiare indipendentemente un box dall'altro */
+.row4_box:last-child .row4_info h3{
+  font-size: 45px;
+  padding-top: 30px;
+}
+
+.row4_box:last-child .row4_info h4{
+  font-size: 20px;
+  padding: 15px 0;
+}
+
+.row4_box:last-child .row4_info a{
+  font-size: 20px;
+  padding: 0 8px;
+}
+
+.row4_box:last-child .row4_info i{
+  padding: 0 5px;
+}
+
 
 
 
