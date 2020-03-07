@@ -340,7 +340,7 @@ body{
 
 /* row 4 */
 .row_4{
-  margin-top: 30px;
+  margin-top: 35px;
   text-align: center;
 }
 
@@ -414,6 +414,55 @@ body{
 .row4_box:last-child .row4_info i{
   padding: 0 5px;
 }
+
+/* row 5 */
+
+.row_5{
+  margin-top: 35px;
+  background-image: url('../img/social-banner.jpg');
+  height: 450px;
+  background-size: cover;
+}
+
+.row5_box{
+  text-align: center;
+  background: white;
+}
+
+.row5_box.position_center{
+  width: 450px;
+  height: 200px;
+  background: white;
+  padding: 60px 0;
+}
+
+.row5_box h2{
+  font-size: 30px;
+}
+
+.row5_box i{
+  color: black;
+  font-size: 30px;
+  padding: 5px 5px;
+}
+
+.row5_box a:nth-child(2) i:hover{
+  color: #833ab4
+}
+
+.row5_box a:nth-child(3) i:hover{
+  color: #4167b2;
+}
+
+.row5_box a:nth-child(4) i:hover{
+  color: #1da1f3;
+}
+
+.row5_box a:nth-child(5) i:hover{
+  color: #fe0000;
+}
+
+
 
 
 
