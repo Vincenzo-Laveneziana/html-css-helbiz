@@ -29,9 +29,15 @@ body{
   display: table;
   clear: both;
 }
+
 .w_20{
-  width: 20%;
+  w
+  idth: 20%;
 }
+.w_25{
+  width: 25%;
+}
+
 .w_30{
   width: 30%;
 }
@@ -395,7 +401,7 @@ body{
   padding: 0 5px;
 }
 
-/* nel caso si vuole cambiare indipendentemente un box dall'altro */
+/* nel caso si vuole cambiare indipendentemente gli elementi di un box rispetto all'altro */
 .row4_box:last-child .row4_info h3{
   font-size: 45px;
   padding-top: 30px;
@@ -418,7 +424,7 @@ body{
 /* row 5 */
 
 .row_5{
-  margin-top: 35px;
+  margin: 35px 0 50px;
   background-image: url('../img/social-banner.jpg');
   height: 450px;
   background-size: cover;
@@ -460,6 +466,42 @@ body{
 
 .row5_box a:nth-child(5) i:hover{
   color: #fe0000;
+}
+
+/* inizio footer */
+
+footer{
+  background: black;
+  height: 800px;
+  width: 100%;
+}
+
+footer .container{
+  width: 1200px;
+}
+
+.footer_row1{
+  border-bottom: 2px solid #696969;
+  height: 350px;
+}
+
+.f_row1_box{
+  padding: 75px 25px 0;
+
+}
+
+.f_row1_box h4{
+  color: white;
+  padding-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.f_row1_box li{
+  padding: 5px 0;
+}
+
+.f_row1_box a{
+  color: #696969;
 }
 
 
