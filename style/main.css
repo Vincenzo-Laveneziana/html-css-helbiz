@@ -56,6 +56,14 @@ body{
   transform: translate(-50%, -50%);
 }
 
+.position_right {
+  width: 50%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+}
+
 .relative{
   position: relative;
 }
@@ -292,7 +300,42 @@ body{
   font-weight: 400;
 }
 
+/* row 3 */
 
+.row_3{
+  margin-top: 50px;
+  background-image: url('../img/scooter-bg.jpg');
+  height: 550px;
+  background-size: cover;
+}
+
+.position_right{
+  text-align: center;
+  padding: 0 150px;
+}
+
+.position_right h3{
+  color: white;
+  font-size: 40px;
+}
+
+.position_right p{
+  color: white;
+  font-size: 22px;
+  padding: 15px 0;
+}
+
+.position_right a{
+  display: block;
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.position_right i{
+  font-size: 15px;
+  padding: 0 5px;
+}
 
 
 
