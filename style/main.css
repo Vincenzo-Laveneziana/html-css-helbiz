@@ -273,7 +273,7 @@ body{
   .row_2_background{
     background-image: url('../img/helbiz-banner.jpg');
     width: 100%;
-    height: 500px;
+    height: 550px;
     background-size: cover;
     background-position: center;
   }
@@ -291,12 +291,12 @@ body{
   }
 
   .row_2_container{
-    padding-bottom: 120px;
+    padding-bottom: 50px;
   }
 
   .row2_col_lf,
   .row2_col_rg{
-    padding-top: 100px;
+    padding-top: 50px;
   }
 
   .row2_col_lf h2{
@@ -568,7 +568,6 @@ body{
 }
 
 /* medium screen */
-
 @media all and (min-width: 740px) and (max-width: 1249px){
 
 
@@ -615,9 +614,12 @@ body{
     display: inline-block;
   }
 
-  [class^='nav_col_'] a:hover{
-    border-bottom: 1px solid grey;
+  .nav_col_mid a:hover{
+    padding: 15px 10px;
+    border-bottom: 4px solid black;
   }
+
+  
 
   .nav_col_mid a,
   .nav_col_right a{
@@ -762,15 +764,14 @@ body{
   .row_2{
     margin-top: 50px;
     text-align: center;
-
   }
 
   .row_2_background{
     background-image: url('../img/helbiz-banner.jpg');
     width: 100%;
-    height: 500px;
+    height: 450px;
     background-size: cover;
-    background-position: center;
+    background-position: left;
   }
 
   .row2_col_mid img {
@@ -782,12 +783,12 @@ body{
   }
 
   .row_2_container{
-    padding-bottom: 120px;
+    padding-bottom: 40px;
   }
 
   .row2_col_lf,
   .row2_col_rg{
-    padding-top: 100px;
+    padding-top: 50px;
   }
 
   .row2_col_lf h2{
